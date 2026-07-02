@@ -6,6 +6,7 @@
 }
 :root{
     --background-color: rgb(84, 206, 247);
+    --main-font: 'Roboto';
 }
 
 .img-navbar {
@@ -46,4 +47,8 @@
 }
 a {
     color: inherit;
+}
+
+h1, h2 {
+    font-family: var(--main-font);
 }
